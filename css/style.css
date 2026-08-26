@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: #11100f;
+    color: #d8d2c4;
+
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+header {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+header p {
+    color: #918979;
+    font-style: italic;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+
+    border-top: 1px solid #3b352d;
+    color: #918979;
+}
