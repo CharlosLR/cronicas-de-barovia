@@ -1,0 +1,1 @@
+Aún no se sabe gran cosa de este personaje.

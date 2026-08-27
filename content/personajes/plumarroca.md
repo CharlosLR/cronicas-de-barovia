@@ -1,0 +1,5 @@
+Willen Plumarroca era un pastor mediano de vida sencilla hasta que participó en la expedición organizada por Welton contra los lobos. Desde entonces permanece gravemente afectado tanto física como mentalmente. Tiene un brazo y una pierna dañados y pasa buena parte de su recuperación en una habitación de El Bastón del Pastor, bajo los cuidados del padre Merriksonn.
+
+Su aspecto todavía conserva las marcas de su vida en las colinas: piel enrojecida por el sol y el aspecto curtido propio de quien ha pasado años al aire libre. Sin embargo, aquello que más llama la atención no son sus heridas, sino su estado de nerviosismo. Habla con dificultad de lo ocurrido y sus recuerdos se mezclan con momentos de confusión y terror.
+
+Plumarroca asegura que los lobos que atacaron a su grupo no se comportaban como animales. Mientras permanecía indefenso, escuchó voces ásperas discutiendo entre sí sobre si debían comérselo. Nadie en Welton parece dispuesto a creer completamente su historia y algunos atribuyen sus recuerdos al trauma sufrido durante el ataque. Él, sin embargo, está convencido de lo que oyó.

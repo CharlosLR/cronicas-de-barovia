@@ -1,0 +1,5 @@
+Tillus Merrion es un mediano orgulloso y fanfarrón que dirige la organización comercial más poderosa de Welton. En la práctica, su posición lo convierte en alcalde de facto y principal figura del Consejo. Supervisa la venta de grano, lana y otros productos, negocia contratos con comerciantes de otras ciudades y organiza el transporte de las mercancías.
+
+Es un hombre extraordinariamente preocupado por el orden. Le gustan los contratos claros, las cuentas bien hechas, las calles limpias y las cosas funcionando como deberían. Tiene verdadero talento para el comercio y buena parte de la prosperidad de Welton se debe a su gestión.
+
+Sin embargo, su obsesión por mantener la estabilidad económica puede hacerle olvidar aquello que representan las cifras de sus libros. Durante la crisis de los lobos, su principal preocupación es evitar que Welton incumpla sus compromisos comerciales, incluso si para ello debe defender la continuidad de las exportaciones mientras los habitantes empiezan a sufrir escasez. No parece hacerlo por crueldad. Al contrario, ama profundamente Welton y está convencido de que mantener su prosperidad es la mejor manera de protegerlo.

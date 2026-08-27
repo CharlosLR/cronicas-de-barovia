@@ -1,0 +1,5 @@
+Corel es uno de los pastores más experimentados de Welton. Delgado y curtido por décadas de trabajo al aire libre, posee el aspecto de alguien acostumbrado a pasar más tiempo entre colinas y rebaños que bajo un techo. Es un hombre reservado que rara vez desperdicia palabras; cuando habla, sin embargo, el resto del Consejo suele escuchar.
+
+Lleva más de cuarenta años recorriendo las colinas que rodean Welton y conoce especialmente bien los terrenos próximos a los bosques occidentales. Los lobos le arrebataron buena parte de su propio rebaño, pero comprendió rápidamente la gravedad de la situación y llevó a las ovejas restantes hasta la seguridad del pueblo.
+
+A diferencia de otros miembros del Consejo, Corel no parece tener interés en convertir el problema en una cuestión de orgullo. Una vez descubre que los lobos son criaturas inteligentes, está dispuesto a aceptar la posibilidad de negociar con ellos, incluso si eso significa asumir las pérdidas que ya han causado.

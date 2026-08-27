@@ -1,0 +1,7 @@
+Alexi Merriksonn fue durante años el protector de Welton. Se encargaba de mantener alejados de las granjas a monstruos peligrosos y, ocasionalmente, a grupos de bandidos. Era un hechicero con una conexión innata con las fuerzas impredecibles de la magia salvaje, algo que lo convirtió desde niño en una figura difícil de comprender para muchos de sus vecinos.
+
+A pesar de la desconfianza que despertaba su magia, Alexi dedicó gran parte de su vida a demostrar que podía proteger a su pueblo. Era un hombre impredecible, propenso a perderse en sus propios pensamientos y a recorrer las tierras que rodeaban Welton casi sin rumbo aparente mientras buscaba posibles amenazas antes de que alcanzaran las granjas.
+
+Su hermano Johan fue probablemente la persona más cercana que tuvo. Para buena parte de Welton, sin embargo, Alexi siguió siendo siempre un extraño, y algunos de los habitantes más supersticiosos llegaron a considerar que su propia magia constituía un peligro.
+
+Desapareció mientras patrullaba los páramos, aproximadamente al mismo tiempo que comenzaron los ataques de los lobos. Lo que realmente ocurrió fue mucho más extraño: al encontrarse con la manada intentó ahuyentarla, pero una Oleada de Magia Salvaje lo alcanzó mientras utilizaba sus poderes. Su cuerpo quedó destruido en el accidente y parte de su inteligencia y capacidades mágicas pasó a los lobos que se encontraban cerca.

@@ -1,0 +1,7 @@
+Bolt es un lobo de tamaño extraordinario, mucho mayor que cualquiera de los miembros comunes de la manada. Su pelaje es gris oscuro y presenta una tonalidad azulada que parece intensificarse cuando manifiesta su poder. Sus ojos y parte de su cuerpo desprenden una tenue luz azul, semejante a la electricidad acumulándose antes de una tormenta.
+
+Posee una inteligencia comparable a la de cualquier persona y es capaz de hablar. Su comportamiento es prudente, reflexivo y marcadamente protector hacia la manada. No muestra especial afecto hacia los humanos, a quienes considera responsables de la persecución y muerte de muchos de los suyos, pero tampoco busca el enfrentamiento cuando existe una alternativa. Parece convencido de que la supervivencia de su manada depende más de la prudencia que de la violencia.
+
+Es capaz de canalizar electricidad y proyectarla desde sus fauces. Habla siempre en voz baja; cuando eleva demasiado la voz, su rugido adquiere la fuerza de un trueno.
+
+Traicionado por su consorte Flame, Bolt y su manada ahora mantiene un pacto de no agresión con Welton tras reclamar los bosques y asegurar que lo mantendrán libres de otros depredadores sin suponer peligro para los habitantes de la villa.

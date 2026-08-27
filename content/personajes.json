@@ -1,0 +1,61 @@
+{
+    "zonas": {
+        "welton": {
+            "nombre": "Welton",
+            "personajes": [
+                {
+                    "id": "padre-merrikson",
+                    "nombre": "Padre Merrikson",
+                    "tipo": "Consejo / Sacerdote de Welton",
+                    "imagen": "assets/images/padre-merrikson.png",
+                    "archivo": "content/personajes/padre-merrikson.md"
+                },
+                {
+                    "id": "corel",
+                    "nombre": "Corel",
+                    "tipo": "Consejo / Pastor de Welton",
+                    "imagen": "assets/images/Corel.png",
+                    "archivo": "content/personajes/corel.md"
+                },
+                {
+                    "id": "tillus",
+                    "nombre": "Tillus Merrion",
+                    "tipo": "Presidente de la Asociación de Cultivadores y Compradores",
+                    "imagen": "assets/images/tillus.png",
+                    "archivo": "content/personajes/tillus.md"
+                },
+                {
+                    "id": "leanor-slatebeard",
+                    "nombre": "Leanor Slatebeard",
+                    "tipo": "Posadera de El Bastón del Pastor",
+                    "imagen": "assets/images/Leanor.png",
+                    "archivo": "content/personajes/leanor-slatebeard.md"
+                },
+                {
+                    "id": "plumarroca",
+                    "nombre": "Willen Plumarroca",
+                    "tipo": "Habitante de Welton",
+                    "imagen": "assets/images/Plumarroca.png",
+                    "archivo": "content/personajes/plumarroca.md"
+                },
+                {
+                    "id": "alexi",
+                    "nombre": "Alexi Merrikson",
+                    "tipo": "Guardián de Welton",
+                    "imagen": "assets/images/Alexi.png",
+                    "archivo": "content/personajes/alexi.md"
+                }
+            ]
+        }
+    },
+
+    "clave": [
+        {
+            "id": "strahd",
+            "nombre": "Strahd von Zarovich",
+            "tipo": "??",
+            "imagen": "",
+            "archivo": "content/personajes/strahd.md"
+        }
+    ]
+}

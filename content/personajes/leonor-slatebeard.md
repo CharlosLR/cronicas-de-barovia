@@ -1,0 +1,5 @@
+Leanor Slatebeard es una de las pocas enanas que viven en Welton y regenta El Bastón del Pastor junto a su marido Banteth, encargado de la cocina y de la elaboración de la cerveza. Tiene más de cien años y ha visto crecer el asentamiento desde sus primeros tiempos hasta convertirse en la próspera aldea que conocen los aventureros.
+
+Su posición parece modesta, pero quienes conocen Welton saben que Leanor posee una influencia considerable. Lleva décadas tratando con prácticamente todas las familias del pueblo y conoce sus historias, sus problemas y sus secretos. A lo largo de los años ha acumulado favores suficientes como para que una conversación aparentemente casual con ella pueda tener más peso del que cabría esperar de una simple posadera.
+
+Con los aventureros se ha mostrado particularmente cordial después de conocer su intervención contra los lobos.

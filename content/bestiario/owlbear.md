@@ -1,0 +1,5 @@
+Criatura de enormes dimensiones que combina características de oso y de ave rapaz. Su cuerpo es robusto y poderoso, cubierto de pelo y plumas, mientras que sus extremidades delanteras presentan largas plumas en su cara interior. Posee grandes garras y un pico curvado.
+
+El ejemplar encontrado en los bosques de Welton estaba extremadamente debilitado y presentaba numerosas heridas antiguas producidas por mordeduras y garras. También mostraba señales evidentes de quemaduras. Las lesiones parecían tener varios días de antigüedad, lo que indica que había sobrevivido a un enfrentamiento especialmente violento antes de encontrarse con los aventureros. Resulta extraño que un oso lechuza hubiese sido atacado por una manada de lobos, pues normalmente evitarían enfrentarse a criaturas de este tipo.
+
+El ejemplar se encontraba hambriento, desorientado y en un estado de extrema agresividad, probablemente como consecuencia de sus heridas y de la falta de alimento. Su presencia en aquella zona parece estar relacionada con la expulsión del antiguo territorio que ocupaba por parte de los lobos inteligentes.

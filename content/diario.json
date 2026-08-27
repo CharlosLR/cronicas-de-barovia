@@ -1,0 +1,22 @@
+{
+    "aventuras": [
+        {
+            "id": "lobos-de-welton",
+            "titulo": "Los Lobos de Welton",
+            "sesiones": [
+                {
+                    "id": "sesion-1",
+                    "numero": 1,
+                    "titulo": "Los Lobos de Welton · Parte I",
+                    "archivo": "content/diario/sesion-1.md"
+                },
+                {
+                    "id": "sesion-2",
+                    "numero": 2,
+                    "titulo": "Los Lobos de Welton · Parte II",
+                    "archivo": "content/diario/sesion-2.md"
+                }
+            ]
+        }
+    ]
+}

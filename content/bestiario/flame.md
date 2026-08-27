@@ -1,0 +1,7 @@
+Flame comparte el extraordinario tamaño de Bolt, aunque su presencia resulta mucho más amenazadora. Su pelaje es oscuro, casi negro, y sus ojos mantienen un brillo naranja constante. Finas líneas rojizas recorren su cuerpo como grietas por las que pareciera filtrarse el resplandor de un fuego oculto.
+
+Su inteligencia es extraordinaria y, al igual que Bolt, puede hablar y razonar. Es ferozmente protectora con la manada, pero interpreta la amenaza humana de una manera completamente distinta a su compañero. Considera que los habitantes de Welton y otros pueblos acabarán destruyéndolos si no son expulsados primero. Su respuesta natural ante el peligro es la violencia y no parece conceder demasiado valor a las vidas de quienes considera enemigos.
+
+Flame puede producir y controlar fuego, llegando a expulsar llamaradas directamente desde sus fauces. Su comportamiento demuestra que la inteligencia no ha eliminado sus instintos de depredador, sino que le ha proporcionado nuevas formas de utilizarlos.
+
+Ante la amenaza de que su cubil fuese descubierto, Flame trató de llevar a la manada a una postura total de hostilidad hacia los aventureros y hacia Welton. En un intento por mantener su versión mediante la fuerza, atacó a Bolt a traición y se abalanzó contra los aventureros, en un encuentro donde acabaría perdiendo la vida.

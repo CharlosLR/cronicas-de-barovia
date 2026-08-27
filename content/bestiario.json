@@ -1,0 +1,32 @@
+{
+    "criaturas": [
+        {
+            "id": "lobos-welton",
+            "nombre": "Lobos de Welton",
+            "tipo": "Bestia",
+            "imagen": "assets/images/Wow.png",
+            "archivo": "content/bestiario/lobos-welton.md"
+        },
+        {
+            "id": "bolt",
+            "nombre": "Bolt",
+            "tipo": "Bestia / Alfa",
+            "imagen": "assets/images/Bolt.png",
+            "archivo": "content/bestiario/bolt.md"
+        },
+        {
+            "id": "flame",
+            "nombre": "Flame",
+            "tipo": "Bestia / Alfa",
+            "imagen": "assets/images/Flame.png",
+            "archivo": "content/bestiario/flame.md"
+        },
+        {
+            "id": "owlbear",
+            "nombre": "Oso Lechuza",
+            "tipo": "Monstruosidad",
+            "imagen": "assets/images/OwlbearW.png",
+            "archivo": "content/bestiario/owlbear.md"
+        }
+    ]
+}

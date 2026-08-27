@@ -1,0 +1,5 @@
+Johan Merriksonn es el sacerdote de Welton y una de las figuras más respetadas de la comunidad. Es un hombre humano de unos cincuenta años, de rostro amable y cabello blanco, nacido y criado en el propio pueblo. Su familia prosperó como agricultores y tanto él como su hermano Alexi recibieron una educación poco habitual para la región.
+
+El padre Merriksonn parece haber asumido con naturalidad el papel de conciencia del Consejo. Frente a quienes consideran que la supervivencia de Welton depende ante todo de mantener sus contratos y exportaciones, él insiste en que ningún acuerdo comercial vale tanto como para dejar a sus vecinos sin comida. Su preocupación por los habitantes del pueblo es sincera, incluso cuando sus decisiones resultan impopulares.
+
+Es el hermano de Alexi Merriksonn y, pese a conocer las sospechas que muchos vecinos albergan sobre él, nunca ha dejado de defender su memoria. Cree que Alexi amaba Welton y que jamás habría querido causar daño a quienes pasó su vida protegiendo. Incluso después de conocer la posible relación entre su hermano y los lobos, está dispuesto a considerar una solución que evite más muertes.

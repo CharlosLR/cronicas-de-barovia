@@ -1,0 +1,5 @@
+La manada que habita los bosques occidentales de Welton no debe confundirse con una manada de lobos corriente. Aunque su aspecto y comportamiento físico siguen siendo los de animales salvajes, han demostrado poseer lenguaje, capacidad de organización, razonamiento y una notable habilidad para emplear tácticas de grupo.
+
+Los lobos han aprendido a aprovechar su número y coordinación para rodear a sus enemigos, distraerlos y atacar desde varios ángulos. No parecen combatir por simple ferocidad. Observan, esperan y adaptan sus acciones a lo que ocurre a su alrededor. También han demostrado capacidad para construir estructuras rudimentarias, proteger a sus cachorros y conservar animales vivos para disponer de alimento durante el invierno.
+
+Algunos miembros de la manada llevan retales de tela, plumas, huesos y otros objetos como adornos. En las cuevas se han encontrado camas improvisadas, dibujos y otras señales de que están desarrollando una cultura propia. Su inteligencia parece proceder de un fenómeno mágico relacionado con la desaparición de Alexi Merrikson, tras que fueran afectados por una oleada de magia salvaje.
