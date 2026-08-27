@@ -36,20 +36,12 @@ async function loadMarkdown(file) {
 function renderInicio() {
 
     return `
-        <section class="page">
+        <section class="journal-cover">
 
-            <span class="page-eyebrow">
-                Crónicas de Barovia
-            </span>
-
-            <h2>
-                Bienvenidos a Barovia
-            </h2>
-
-            <p>
-                Este archivo recoge aquello que hemos descubierto
-                durante nuestro viaje.
-            </p>
+            <img
+                src="assets/images/diario-portada.png"
+                alt="Crónicas de Barovia"
+            >
 
         </section>
     `;

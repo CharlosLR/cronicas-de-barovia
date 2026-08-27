@@ -967,3 +967,30 @@ body {
     }
 
 }
+
+/* ========================================
+   PORTADA DEL DIARIO
+   ======================================== */
+
+.journal-cover {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3rem 2rem 4rem;
+}
+
+
+.journal-cover img {
+    display: block;
+
+    width: min(90%, 720px);
+    height: auto;
+
+    max-height: calc(100vh - 10rem);
+
+    object-fit: contain;
+}
