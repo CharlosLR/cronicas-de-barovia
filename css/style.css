@@ -102,10 +102,13 @@ body {
 
 .brand-image::after {
     content: "";
+
     position: absolute;
+
     left: 0;
     right: 0;
     bottom: 0;
+
     height: 45%;
 
     background: linear-gradient(
@@ -327,12 +330,18 @@ body {
     line-height: 1.8;
 }
 
+
+/* ========================================
+   ENLACE VOLVER
+   ======================================== */
+
 .back-link {
     display: inline-block;
 
     margin-top: 2rem;
 
     color: var(--color-text-muted);
+
     text-decoration: none;
 
     transition: color 0.2s ease;
@@ -341,6 +350,7 @@ body {
 .back-link:hover {
     color: var(--color-accent);
 }
+
 
 /* ========================================
    DIARIO
@@ -375,11 +385,14 @@ body {
 
     transition:
         border-color 0.2s ease,
-        background-color 0.2s ease;
+        background-color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .diary-entry:hover {
     border-color: var(--color-accent);
+
+    transform: translateY(-2px);
 }
 
 .entry-number {
@@ -410,15 +423,22 @@ body {
     font-size: 0.95rem;
 }
 
+
+/* Contenido Markdown */
+
 .diary-content {
     max-width: 800px;
+
     margin-top: 2rem;
+
     white-space: pre-line;
+
     text-align: justify;
 }
 
 .diary-content p {
     margin: 0 0 1.2rem;
+
     line-height: 1.8;
 }
 
@@ -431,7 +451,9 @@ body {
 
 .diary-content blockquote {
     margin: 1.5rem 0;
+
     padding: 0.75rem 1.5rem;
+
     border-left: 2px solid var(--color-accent);
 }
 
@@ -439,8 +461,9 @@ body {
     font-weight: bold;
 }
 
+
 /* ========================================
-   PERSONAJES
+   PERSONAJES / BESTIARIO
    ======================================== */
 
 .character-list,
@@ -466,13 +489,16 @@ body {
 }
 
 .character-card:hover,
-.bestiary-card:hover {
+.bestiary-card:hover,
+.clickable-card:hover {
     border-color: var(--color-accent);
+
     transform: translateY(-2px);
 }
 
+
 /* ========================================
-   IMÁGENES DE FICHAS
+   IMÁGENES DE TARJETAS
    ======================================== */
 
 .character-image,
@@ -486,6 +512,7 @@ body {
     background-color: #141210;
 
     border-bottom: 1px solid var(--color-border);
+
     overflow: hidden;
 }
 
@@ -504,11 +531,13 @@ body {
     color: var(--color-text-muted);
 
     font-size: 0.7rem;
+
     letter-spacing: 0.2em;
 }
 
+
 /* ========================================
-   INFORMACIÓN DE FICHAS
+   INFORMACIÓN DE TARJETAS
    ======================================== */
 
 .character-info,
@@ -548,44 +577,26 @@ body {
     line-height: 1.6;
 }
 
+
+/* ========================================
+   TARJETAS CLICABLES
+   ======================================== */
+
 .clickable-card,
 .bestiary-card,
 .character-card {
     cursor: pointer;
 }
 
-.clickable-card:hover,
-.bestiary-card:hover,
-.character-card:hover {
-    border-color: var(--color-accent);
-    transform: translateY(-2px);
-}
 
-.bestiary-detail-image {
-    width: 100%;
-    max-height: 500px;
+/* ========================================
+   IMÁGENES DE FICHAS
+   ======================================== */
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    overflow: hidden;
-    margin-bottom: 2rem;
-}
-
-.bestiary-detail-image img {
-    max-width: 100%;
-    max-height: 500px;
-
-    width: auto;
-    height: auto;
-
-    object-fit: contain;
-    display: block;
-}
-
+.bestiary-detail-image,
 .character-detail-image {
     width: 100%;
+
     max-height: 500px;
 
     display: flex;
@@ -593,9 +604,11 @@ body {
     justify-content: center;
 
     overflow: hidden;
+
     margin-bottom: 2rem;
 }
 
+.bestiary-detail-image img,
 .character-detail-image img {
     max-width: 100%;
     max-height: 500px;
@@ -604,5 +617,215 @@ body {
     height: auto;
 
     object-fit: contain;
+
     display: block;
+}
+
+
+/* ========================================
+   RESPONSIVE — TABLET
+   ======================================== */
+
+@media (max-width: 900px) {
+
+    :root {
+        --sidebar-width: 220px;
+    }
+
+    .page {
+        padding: 4rem 3rem;
+    }
+
+    .page h2 {
+        font-size: 2.5rem;
+    }
+
+    .character-list,
+    .bestiary-list {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ========================================
+   RESPONSIVE — MÓVIL
+   ======================================== */
+
+@media (max-width: 600px) {
+
+    :root {
+        --sidebar-width: 0px;
+    }
+
+
+    /* SIDEBAR */
+
+    .sidebar {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+
+        border-right: none;
+        border-bottom: 1px solid var(--color-border);
+
+        overflow: visible;
+    }
+
+
+    /* IMAGEN */
+
+    .brand-image {
+        height: 150px;
+    }
+
+
+    /* TÍTULO */
+
+    .brand-title {
+        padding: 1rem 1rem 1.25rem;
+    }
+
+    .brand-title h1 {
+        font-size: 1.35rem;
+    }
+
+    .brand-title p {
+        font-size: 0.72rem;
+    }
+
+
+    /* NAVEGACIÓN */
+
+    .navigation {
+        padding: 0.5rem 1rem 1.5rem;
+    }
+
+    .nav-group {
+        margin-top: 0.75rem;
+    }
+
+
+    /* CONTENIDO */
+
+    .content {
+        margin-left: 0;
+
+        min-height: auto;
+    }
+
+    .page {
+        width: 100%;
+        max-width: none;
+
+        padding: 3rem 1.25rem;
+    }
+
+
+    /* TÍTULOS */
+
+    .page h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .page-eyebrow {
+        font-size: 0.65rem;
+
+        letter-spacing: 0.18em;
+    }
+
+
+    /* TEXTO */
+
+    .page p {
+        font-size: 1rem;
+
+        line-height: 1.7;
+    }
+
+    .page-intro {
+        margin-bottom: 2.5rem;
+    }
+
+
+    /* DIARIO */
+
+    .entry-group {
+        margin-top: 2rem;
+    }
+
+    .diary-entry {
+        padding: 1.25rem;
+
+        margin-bottom: 1rem;
+    }
+
+    .diary-content {
+        width: 100%;
+        max-width: none;
+
+        font-size: 0.95rem;
+    }
+
+    .diary-content p {
+        line-height: 1.7;
+    }
+
+
+    /* TARJETAS */
+
+    .character-list,
+    .bestiary-list {
+        grid-template-columns: 1fr;
+
+        gap: 1rem;
+
+        margin-top: 2rem;
+    }
+
+    .character-image,
+    .bestiary-image {
+        height: 220px;
+    }
+
+    .character-info,
+    .bestiary-info {
+        padding: 1.25rem;
+    }
+
+    .character-info h3,
+    .bestiary-info h3 {
+        font-size: 1.25rem;
+    }
+
+
+    /* IMÁGENES DE FICHAS */
+
+    .bestiary-detail-image,
+    .character-detail-image {
+        max-height: 400px;
+    }
+
+    .bestiary-detail-image img,
+    .character-detail-image img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+
+    /* VOLVER */
+
+    .back-link {
+        margin-top: 1.5rem;
+    }
+
+
+    /* FOOTER */
+
+    .sidebar-footer {
+        padding: 1rem;
+    }
+
 }
