@@ -1,6 +1,10 @@
 const content = document.getElementById("content");
 
 
+// ========================================
+// CARGA DE DATOS
+// ========================================
+
 async function loadJSON(file) {
 
     const response = await fetch(file);
@@ -24,6 +28,11 @@ async function loadMarkdown(file) {
     return await response.text();
 }
 
+
+// ========================================
+// INICIO
+// ========================================
+
 function renderInicio() {
 
     return `
@@ -45,6 +54,11 @@ function renderInicio() {
         </section>
     `;
 }
+
+
+// ========================================
+// DIARIO
+// ========================================
 
 function renderDiario(data) {
 
@@ -113,23 +127,30 @@ function renderDiario(data) {
     return html;
 }
 
+
 async function renderSesion(id) {
 
-    const data = await loadJSON("content/diario.json");
+    const data =
+        await loadJSON("content/diario.json");
 
     let sesionEncontrada = null;
 
 
     for (const aventura of data.aventuras) {
 
-        const sesion = aventura.sesiones.find(
-            sesion => sesion.id === id
-        );
+        const sesion =
+            aventura.sesiones.find(
+                sesion => sesion.id === id
+            );
 
         if (sesion) {
+
             sesionEncontrada = sesion;
+
             break;
+
         }
+
     }
 
 
@@ -137,15 +158,21 @@ async function renderSesion(id) {
 
         return `
             <section class="page">
-                <h2>Sesión no encontrada</h2>
+
+                <h2>
+                    Sesión no encontrada
+                </h2>
+
             </section>
         `;
+
     }
 
 
-    const markdown = await loadMarkdown(
-        sesionEncontrada.archivo
-    );
+    const markdown =
+        await loadMarkdown(
+            sesionEncontrada.archivo
+        );
 
 
     return `
@@ -163,13 +190,21 @@ async function renderSesion(id) {
                 ${marked.parse(markdown)}
             </article>
 
-            <a href="#diario" class="back-link">
+            <a
+                href="#diario"
+                class="back-link"
+            >
                 ← Volver al Diario
             </a>
 
         </section>
     `;
 }
+
+
+// ========================================
+// PERSONAJES
+// ========================================
 
 function renderPersonajes(data) {
 
@@ -185,7 +220,8 @@ function renderPersonajes(data) {
             </h2>
 
             <p class="page-intro">
-                Personas conocidas y nombres que han comenzado a cobrar importancia.
+                Personas conocidas y nombres que han comenzado
+                a cobrar importancia.
             </p>
     `;
 
@@ -207,49 +243,56 @@ function renderPersonajes(data) {
 
         data.clave.forEach(personaje => {
 
-            html += crearTarjetaPersonaje(personaje);
+            html +=
+                crearTarjetaPersonaje(personaje);
 
         });
 
 
         html += `
                 </div>
+
             </div>
         `;
+
     }
 
 
     // Personajes por zona
 
-    Object.entries(data.zonas).forEach(([idZona, zona]) => {
+    Object.entries(data.zonas).forEach(
+        ([idZona, zona]) => {
 
-        html += `
-            <div class="character-section">
+            html += `
+                <div class="character-section">
 
-                <h3>
-                    ${zona.nombre}
-                </h3>
+                    <h3>
+                        ${zona.nombre}
+                    </h3>
 
-                <div class="character-list">
-        `;
-
-
-        zona.personajes.forEach(personaje => {
-
-            html += crearTarjetaPersonaje(
-                personaje,
-                idZona
-            );
-
-        });
+                    <div class="character-list">
+            `;
 
 
-        html += `
+            zona.personajes.forEach(personaje => {
+
+                html +=
+                    crearTarjetaPersonaje(
+                        personaje,
+                        idZona
+                    );
+
+            });
+
+
+            html += `
+                    </div>
+
                 </div>
-            </div>
-        `;
+            `;
 
-    });
+        }
+    );
 
 
     html += `
@@ -260,7 +303,11 @@ function renderPersonajes(data) {
     return html;
 }
 
-function crearTarjetaPersonaje(personaje, zona = null) {
+
+function crearTarjetaPersonaje(
+    personaje,
+    zona = null
+) {
 
     const ruta = zona
         ? `personajes/${zona}/${personaje.id}`
@@ -284,7 +331,9 @@ function crearTarjetaPersonaje(personaje, zona = null) {
                         >
                     `
                     : `
-                        <span>IMAGEN</span>
+                        <span>
+                            IMAGEN
+                        </span>
                     `
                 }
 
@@ -306,30 +355,40 @@ function crearTarjetaPersonaje(personaje, zona = null) {
     `;
 }
 
-async function renderPersonaje(id, zona = null) {
 
-    const data = await loadJSON("content/personajes.json");
+async function renderPersonaje(
+    id,
+    zona = null
+) {
+
+    const data =
+        await loadJSON("content/personajes.json");
 
     let personaje = null;
 
 
     if (zona) {
 
-        const zonaData = data.zonas[zona];
+        const zonaData =
+            data.zonas[zona];
 
         if (zonaData) {
 
-            personaje = zonaData.personajes.find(
-                personaje => personaje.id === id
-            );
+            personaje =
+                zonaData.personajes.find(
+                    personaje =>
+                        personaje.id === id
+                );
 
         }
 
     } else {
 
-        personaje = data.clave.find(
-            personaje => personaje.id === id
-        );
+        personaje =
+            data.clave.find(
+                personaje =>
+                    personaje.id === id
+            );
 
     }
 
@@ -349,12 +408,14 @@ async function renderPersonaje(id, zona = null) {
 
             </section>
         `;
+
     }
 
 
-    const markdown = await loadMarkdown(
-        personaje.archivo
-    );
+    const markdown =
+        await loadMarkdown(
+            personaje.archivo
+        );
 
 
     const tituloZona = zona
@@ -409,6 +470,7 @@ async function renderPersonaje(id, zona = null) {
     `;
 }
 
+
 function renderPersonajesClave(data) {
 
     let html = `
@@ -432,13 +494,15 @@ function renderPersonajesClave(data) {
 
     data.clave.forEach(personaje => {
 
-        html += crearTarjetaPersonaje(personaje);
+        html +=
+            crearTarjetaPersonaje(personaje);
 
     });
 
 
     html += `
             </div>
+
         </section>
     `;
 
@@ -446,9 +510,14 @@ function renderPersonajesClave(data) {
     return html;
 }
 
-function renderPersonajesZona(data, zonaId) {
 
-    const zona = data.zonas[zonaId];
+function renderPersonajesZona(
+    data,
+    zonaId
+) {
+
+    const zona =
+        data.zonas[zonaId];
 
 
     if (!zona) {
@@ -462,6 +531,7 @@ function renderPersonajesZona(data, zonaId) {
 
             </section>
         `;
+
     }
 
 
@@ -486,22 +556,29 @@ function renderPersonajesZona(data, zonaId) {
 
     zona.personajes.forEach(personaje => {
 
-        html += crearTarjetaPersonaje(
-            personaje,
-            zonaId
-        );
+        html +=
+            crearTarjetaPersonaje(
+                personaje,
+                zonaId
+            );
 
     });
 
 
     html += `
             </div>
+
         </section>
     `;
 
 
     return html;
 }
+
+
+// ========================================
+// BESTIARIO
+// ========================================
 
 function renderBestiario(data) {
 
@@ -527,15 +604,28 @@ function renderBestiario(data) {
     data.criaturas.forEach(criatura => {
 
         html += `
-            <article class="bestiary-card"
-                     data-route="bestiario/${criatura.id}">
+            <article
+                class="bestiary-card clickable-card"
+                data-route="bestiario/${criatura.id}"
+            >
 
                 <div class="bestiary-image">
+
                     ${
                         criatura.imagen
-                        ? `<img src="${criatura.imagen}" alt="${criatura.nombre}">`
-                        : `<span>IMAGEN</span>`
+                        ? `
+                            <img
+                                src="${criatura.imagen}"
+                                alt="${criatura.nombre}"
+                            >
+                        `
+                        : `
+                            <span>
+                                IMAGEN
+                            </span>
+                        `
                     }
+
                 </div>
 
                 <div class="bestiary-info">
@@ -558,6 +648,7 @@ function renderBestiario(data) {
 
     html += `
             </div>
+
         </section>
     `;
 
@@ -565,25 +656,40 @@ function renderBestiario(data) {
     return html;
 }
 
+
 async function renderBestiarioFicha(id) {
 
-    const data = await loadJSON("content/bestiario.json");
+    const data =
+        await loadJSON("content/bestiario.json");
 
-    const criatura = data.criaturas.find(
-        criatura => criatura.id === id
-    );
+
+    const criatura =
+        data.criaturas.find(
+            criatura =>
+                criatura.id === id
+        );
+
 
     if (!criatura) {
+
         return `
             <section class="page">
-                <h2>Criatura no encontrada</h2>
+
+                <h2>
+                    Criatura no encontrada
+                </h2>
+
             </section>
         `;
+
     }
 
 
-    const markdown = criatura.archivo
-        ? await loadMarkdown(criatura.archivo)
+    const markdown =
+        criatura.archivo
+        ? await loadMarkdown(
+            criatura.archivo
+        )
         : criatura.descripcion;
 
 
@@ -604,25 +710,33 @@ async function renderBestiarioFicha(id) {
                     criatura.imagen
                     ? `
                         <div class="bestiary-detail-image">
+
                             <img
                                 src="${criatura.imagen}"
                                 alt="${criatura.nombre}"
                             >
+
                         </div>
                     `
                     : ""
                 }
 
                 <div class="bestiary-detail-content">
-                    ${criatura.archivo
+
+                    ${
+                        criatura.archivo
                         ? marked.parse(markdown)
                         : `<p>${markdown}</p>`
                     }
+
                 </div>
 
             </div>
 
-            <a href="#bestiario" class="back-link">
+            <a
+                href="#bestiario"
+                class="back-link"
+            >
                 ← Volver al Bestiario
             </a>
 
@@ -631,25 +745,23 @@ async function renderBestiarioFicha(id) {
 }
 
 
-function getCurrentView() {
-
-    const hash = window.location.hash.substring(1);
-
-    if (views[hash]) {
-        return hash;
-    }
-
-    return "inicio";
-}
-
+// ========================================
+// NAVEGACIÓN
+// ========================================
 
 function updateActiveLink(view) {
 
-    const links = document.querySelectorAll(".nav-link");
+    const links =
+        document.querySelectorAll(".nav-link");
+
 
     links.forEach(link => {
 
-        const linkView = link.getAttribute("href").substring(1);
+        const linkView =
+            link
+                .getAttribute("href")
+                .substring(1);
+
 
         link.classList.toggle(
             "active",
@@ -660,27 +772,49 @@ function updateActiveLink(view) {
 }
 
 
+// ========================================
+// ROUTER
+// ========================================
+
 async function renderView() {
 
-    const route = window.location.hash.substring(1) || "inicio";
+    const route =
+        window.location.hash.substring(1)
+        || "inicio";
+
 
     try {
 
-        const parts = route.split("/");
+        const parts =
+            route.split("/");
 
-        const section = parts[0];
-        const id = parts[1];
-        const subId = parts[2];
+        const section =
+            parts[0];
+
+        const id =
+            parts[1];
+
+        const subId =
+            parts[2];
 
 
         switch (section) {
 
+            // ----------------------------
+            // INICIO
+            // ----------------------------
+
             case "inicio":
 
-                content.innerHTML = renderInicio();
+                content.innerHTML =
+                    renderInicio();
 
                 break;
 
+
+            // ----------------------------
+            // DIARIO
+            // ----------------------------
 
             case "diario":
 
@@ -692,14 +826,21 @@ async function renderView() {
                 } else {
 
                     const data =
-                        await loadJSON("content/diario.json");
+                        await loadJSON(
+                            "content/diario.json"
+                        );
 
                     content.innerHTML =
                         renderDiario(data);
+
                 }
 
                 break;
 
+
+            // ----------------------------
+            // BESTIARIO
+            // ----------------------------
 
             case "bestiario":
 
@@ -711,22 +852,32 @@ async function renderView() {
                 } else {
 
                     const data =
-                        await loadJSON("content/bestiario.json");
+                        await loadJSON(
+                            "content/bestiario.json"
+                        );
 
                     content.innerHTML =
                         renderBestiario(data);
+
                 }
 
                 break;
 
 
+            // ----------------------------
+            // PERSONAJES
+            // ----------------------------
+
             case "personajes": {
 
                 const data =
-                    await loadJSON("content/personajes.json");
+                    await loadJSON(
+                        "content/personajes.json"
+                    );
 
 
                 // #personajes
+
                 if (!id) {
 
                     content.innerHTML =
@@ -736,6 +887,7 @@ async function renderView() {
 
 
                 // #personajes/clave
+
                 else if (id === "clave") {
 
                     content.innerHTML =
@@ -743,23 +895,38 @@ async function renderView() {
 
                 }
 
+
                 // #personajes/welton
-                else if (id === "welton" && !subId) {
+
+                else if (
+                    id === "welton"
+                    && !subId
+                ) {
 
                     content.innerHTML =
-                        renderPersonajesZona(data, "welton");
+                        renderPersonajesZona(
+                            data,
+                            "welton"
+                        );
 
                 }
 
+
                 // #personajes/welton/padre-merrikson
+
                 else if (subId) {
 
                     content.innerHTML =
-                        await renderPersonaje(subId, id);
+                        await renderPersonaje(
+                            subId,
+                            id
+                        );
 
                 }
 
+
                 // #personajes/strahd
+
                 else {
 
                     content.innerHTML =
@@ -767,107 +934,166 @@ async function renderView() {
 
                 }
 
+
                 break;
+
             }
+
+
+            // ----------------------------
+            // MAPA
+            // ----------------------------
 
             case "mapa":
 
                 content.innerHTML = `
                     <section class="page">
+
                         <span class="page-eyebrow">
                             Barovia
                         </span>
 
-                        <h2>Mapa</h2>
+                        <h2>
+                            Mapa
+                        </h2>
+
                     </section>
                 `;
 
                 break;
 
+
+            // ----------------------------
+            // LUGARES
+            // ----------------------------
 
             case "lugares":
 
                 content.innerHTML = `
                     <section class="page">
+
                         <span class="page-eyebrow">
                             Barovia
                         </span>
 
-                        <h2>Lugares</h2>
+                        <h2>
+                            Lugares
+                        </h2>
+
                     </section>
                 `;
 
                 break;
 
+
+            // ----------------------------
+            // PERSONAJES CLAVE
+            // ----------------------------
 
             case "personajes-clave":
 
                 content.innerHTML = `
                     <section class="page">
+
                         <span class="page-eyebrow">
                             Personajes
                         </span>
 
-                        <h2>Personajes clave</h2>
+                        <h2>
+                            Personajes clave
+                        </h2>
+
                     </section>
                 `;
 
                 break;
 
+
+            // ----------------------------
+            // OBJETOS
+            // ----------------------------
 
             case "objetos":
 
                 content.innerHTML = `
                     <section class="page">
+
                         <span class="page-eyebrow">
                             Reliquias
                         </span>
 
-                        <h2>Objetos</h2>
+                        <h2>
+                            Objetos
+                        </h2>
+
                     </section>
                 `;
 
                 break;
 
+
+            // ----------------------------
+            // CUADERNO
+            // ----------------------------
 
             case "cuaderno":
 
                 content.innerHTML = `
                     <section class="page">
+
                         <span class="page-eyebrow">
                             Notas
                         </span>
 
-                        <h2>Cuaderno</h2>
+                        <h2>
+                            Cuaderno
+                        </h2>
+
                     </section>
                 `;
 
                 break;
 
 
+            // ----------------------------
+            // ERROR
+            // ----------------------------
+
             default:
 
                 content.innerHTML = `
                     <section class="page">
-                        <h2>Página no encontrada</h2>
+
+                        <h2>
+                            Página no encontrada
+                        </h2>
+
                     </section>
                 `;
+
         }
 
 
+        // Actualizar enlace activo
+
         updateActiveLink(section);
 
+
+        // Activar tarjetas
 
         document
             .querySelectorAll("[data-route]")
             .forEach(card => {
 
-                card.addEventListener("click", () => {
+                card.addEventListener(
+                    "click",
+                    () => {
 
-                    window.location.hash =
-                        card.dataset.route;
+                        window.location.hash =
+                            card.dataset.route;
 
-                });
+                    }
+                );
 
             });
 
@@ -875,6 +1101,7 @@ async function renderView() {
     } catch (error) {
 
         console.error(error);
+
 
         content.innerHTML = `
             <section class="page">
@@ -893,32 +1120,93 @@ async function renderView() {
 
             </section>
         `;
+
     }
+
 }
 
 
-function updateActiveLink(view) {
+// ========================================
+// CAMBIO DE PÁGINA
+// ========================================
 
-    const links = document.querySelectorAll(".nav-link");
+window.addEventListener(
+    "hashchange",
+    renderView
+);
 
-    links.forEach(link => {
-
-        const linkView = link.getAttribute("href").substring(1);
-
-        link.classList.toggle(
-            "active",
-            linkView === view
-        );
-
-    });
-}
-
-
-window.addEventListener("hashchange", renderView);
 
 renderView();
 
 
-window.addEventListener("hashchange", renderView);
+// ========================================
+// MENÚ MÓVIL
+// ========================================
 
-renderView();
+const mobileMenuButton =
+    document.getElementById(
+        "mobile-menu-button"
+    );
+
+const sidebar =
+    document.querySelector(
+        ".sidebar"
+    );
+
+const navigation =
+    document.querySelector(
+        ".navigation"
+    );
+
+
+// Abrir / cerrar menú
+
+if (
+    mobileMenuButton
+    && sidebar
+) {
+
+    mobileMenuButton.addEventListener(
+        "click",
+        () => {
+
+            sidebar.classList.toggle(
+                "mobile-menu-open"
+            );
+
+        }
+    );
+
+}
+
+
+// Cerrar menú al seleccionar una opción
+
+if (
+    navigation
+    && sidebar
+) {
+
+    navigation.addEventListener(
+        "click",
+        event => {
+
+            const link =
+                event.target.closest(
+                    ".nav-link"
+                );
+
+
+            if (!link) {
+                return;
+            }
+
+
+            sidebar.classList.remove(
+                "mobile-menu-open"
+            );
+
+        }
+    );
+
+}
