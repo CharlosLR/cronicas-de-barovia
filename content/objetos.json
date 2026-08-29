@@ -1,3 +1,11 @@
 {
-    "objetos": []
+    "objetos": [
+        {
+            "id": "muneca-de-mary",
+            "nombre": "Muñeca de Mary",
+            "tipo": "Objeto",
+            "imagen": "assets/images/mary-doll.png",
+            "archivo": "content/objetos/mary-doll.md"
+        }
+    ]
 }

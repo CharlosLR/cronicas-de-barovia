@@ -481,6 +481,16 @@ body {
     margin-top: 3rem;
 }
 
+.cards-grid {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+
+    margin-top: 2rem;
+}
+
 .character-card,
 .bestiary-card {
     background-color: var(--color-surface);

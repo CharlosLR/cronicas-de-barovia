@@ -1,0 +1,1 @@
+Aquí irá la información conocida sobre la mansión del Burgomaestre de Barovia.

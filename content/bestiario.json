@@ -27,6 +27,13 @@
             "tipo": "Monstruosidad",
             "imagen": "assets/images/OwlbearW.png",
             "archivo": "content/bestiario/owlbear.md"
+        },
+        {
+            "id": "bliss",
+            "nombre": "Bliss",
+            "tipo": "Bestia",
+            "imagen": "assets/images/bliss.png",
+            "archivo": "content/bestiario/bliss.md"
         }
     ]
 }

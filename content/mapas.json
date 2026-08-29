@@ -1,3 +1,11 @@
 {
-    "mapas": []
+    "mapas": [
+        {
+            "id": "mapa-de-barovia",
+            "nombre": "Mapa de Barovia",
+            "tipo": "Mapa",
+            "imagen": "assets/maps/Barovia-initial-map.jpg",
+            "archivo": "content/mapas/mapa-de-barovia.md"
+        }
+    ]
 }

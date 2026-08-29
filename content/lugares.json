@@ -1,3 +1,34 @@
 {
-    "lugares": []
+    "lugares": [
+        {
+            "id": "villa-de-barovia",
+            "nombre": "Villa de Barovia",
+            "tipo": "Población",
+            "imagen": "assets/images/Barovia-Village.jpg",
+            "archivo": "content/lugares/villa-de-barovia.md",
+            "lugares": [
+                {
+                    "id": "posada-sangre-de-la-vid",
+                    "nombre": "Posada Sangre de la Vid",
+                    "tipo": "Establecimiento",
+                    "imagen": "assets/images/taberna-barovia.jpg",
+                    "archivo": "content/lugares/taberna-barovia.md"
+                },
+                {
+                    "id": "mansion-del-burgomaestre",
+                    "nombre": "Mansión del Burgomaestre",
+                    "tipo": "Residencia",
+                    "imagen": "assets/images/burgomastre-mansion.jpg",
+                    "archivo": "content/lugares/mansion-burgomaestre.md"
+                },
+                {
+                    "id": "residencia-de-los-iorghu",
+                    "nombre": "Residencia de los Iorghu",
+                    "tipo": "Residencia",
+                    "imagen": "assets/images/residencia-iorghu.jpg",
+                    "archivo": "content/lugares/residencia-iorghu.md"
+                }
+            ]
+        }
+    ]
 }

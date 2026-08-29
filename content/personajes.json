@@ -46,6 +46,67 @@
                     "archivo": "content/personajes/alexi.md"
                 }
             ]
+        },
+
+        "vistani": {
+            "nombre": "Vistani",
+            "personajes": [
+                {
+                    "id": "stanimir",
+                    "nombre": "Stanimir",
+                    "tipo": "Nómada / Líder de caravana",
+                    "imagen": "assets/images/stanimir.png",
+                    "archivo": "content/personajes/stanimir.md"
+                },
+                {
+                    "id": "zorina",
+                    "nombre": "Zorina",
+                    "tipo": "Nómada",
+                    "imagen": "assets/images/zorina.png",
+                    "archivo": "content/personajes/zorina.md"
+                },
+                {
+                    "id": "alenka-mirabel-sorvia",
+                    "nombre": "Alenka, Mirabel y Sorvia",
+                    "tipo": "Empresarias / Posada de Barovia",
+                    "imagen": "assets/images/alenka-mirabel-sorvia.png",
+                    "archivo": "content/personajes/alenka-mirabel-sorvia.md"
+                },
+                {
+                    "id": "madame-eva",
+                    "nombre": "Madame Eva",
+                    "tipo": "??",
+                    "imagen": "",
+                    "archivo": "content/personajes/madame-eva.md"
+                }
+            ]
+        },
+
+        "villaBarovia": {
+            "nombre": "Villa de Barovia",
+            "personajes": [
+                {
+                    "id": "iorghu",
+                    "nombre": "Sr. y Sra. Iorghu",
+                    "tipo": "Aldeanos",
+                    "imagen": "assets/images/iorghu.png",
+                    "archivo": "content/personajes/iorghu.md"
+                },
+                {
+                    "id": "alenka-mirabel-sorvia",
+                    "nombre": "Alenka, Mirabel y Sorvia",
+                    "tipo": "Empresarias / Posada de Barovia",
+                    "imagen": "assets/images/alenka-mirabel-sorvia.png",
+                    "archivo": "content/personajes/alenka-mirabel-sorvia.md"
+                },
+                {
+                    "id": "ismark",
+                    "nombre": "Ismark Kolyanovich",
+                    "tipo": "Aldeano / Hijo del Burgomaestre",
+                    "imagen": "assets/images/ismark.png",
+                    "archivo": "content/personajes/ismark.md"
+                }
+            ]
         }
     },
 

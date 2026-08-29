@@ -1,5 +1,6 @@
 {
     "aventuras": [
+
         {
             "id": "lobos-de-welton",
             "titulo": "Los Lobos de Welton",
@@ -17,6 +18,20 @@
                     "archivo": "content/diario/sesion-2.md"
                 }
             ]
+        },
+
+        {
+            "id": "villa-de-barovia",
+            "titulo": "Villa de Barovia",
+            "sesiones": [
+                {
+                    "id": "sesion-3",
+                    "numero": 3,
+                    "titulo": "Ida y regreso a Barovia",
+                    "archivo": "content/diario/sesion-3.md"
+                }
+            ]
         }
+
     ]
 }

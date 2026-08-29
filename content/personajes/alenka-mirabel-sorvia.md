@@ -1,0 +1,13 @@
+Tres mujeres Vistani de avanzada edad que actualmente son las propietarias de la posada Sangre de la Vid, en la villa de Barovia. El grupo las conoció en la posada, donde se encontraban reunidas y conversando. Las tres conocían a Dragos y lo reconocieron al encontrarse con él.
+
+Alenka es la más abierta y afable de las tres. Tiene una forma de hablar cálida y directa, acompañada habitualmente de una sonrisa que parece esconder más de lo que revela. Es especialmente observadora cuando conversa con alguien y da la impresión de recordar a las personas mucho después de que estas hayan abandonado la posada. Alenka mantiene además un vínculo familiar con Zorina: es su madre. Su trato hacia Dragos sugiere que lo conoce desde hace muchos años y que guarda hacia él una familiaridad que va más allá de la simple hospitalidad.
+
+Mirabel es la más reservada. Suele permanecer en silencio durante buena parte de las conversaciones, interviniendo únicamente cuando considera que tiene algo que merece ser dicho. Tiene una mirada penetrante y una manera de observar que puede resultar incómoda, como si prefiriera escuchar las palabras de los demás antes de decidir qué piensa realmente de ellos. No parece particularmente interesada en explicar lo que sabe y, cuando se le pregunta algo que considera innecesario, puede responder con evasivas o simplemente dejar que el silencio haga el trabajo por ella.
+
+Sorvia parece ser la más vivaz de las tres. Tiene un carácter más socarrón y una facilidad especial para introducir pequeñas bromas o comentarios irónicos incluso en conversaciones poco alegres. Es también la que parece disfrutar más observando las reacciones de los demás, especialmente cuando alguien intenta aparentar más seguridad de la que realmente posee. Su humor puede resultar extraño en un lugar como Barovia, aunque quizá precisamente por eso parece haberse convertido en una de sus formas de sobrellevar la vida.
+
+Las tres mujeres mantienen entre ellas una relación que parece venir de décadas de convivencia. Se interrumpen, se corrigen y se lanzan comentarios que solo ellas parecen comprender completamente, pero también se complementan con naturalidad. No necesitan hablar demasiado para saber qué piensa cada una de las otras.
+
+Las tres mujeres parecen conocer bien los movimientos de la caravana y anunciaron que esperaban que la de Stanimir no tardara demasiado en pasar por Barovia.
+
+Su conocimiento de los caminos y de las gentes que los recorren parece considerable. La posada es un lugar donde viajeros, lugareños y Vistani pueden coincidir, y las tres parecen perfectamente acostumbradas a escuchar conversaciones sin necesidad de participar en ellas.

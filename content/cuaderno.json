@@ -1,0 +1,11 @@
+{
+    "entradas": [
+        {
+            "id": "campanilla-carro-ambulante",
+            "titulo": "La campanilla de la noche",
+            "tipo": "Rumor",
+            "estado": "Pendiente",
+            "archivo": "content/cuaderno/pasteles.md"
+        }
+    ]
+}

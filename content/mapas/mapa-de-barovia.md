@@ -1,0 +1,1 @@
+Una representación conocida del mapa de Barovia.
